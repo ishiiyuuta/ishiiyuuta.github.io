@@ -1,10 +1,14 @@
+.projects-container {
+    margin: 0;
+    padding: 0;
+    margin-top: 2em;
+}
 .projects-container ul{
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-top: 2em;
 }
 
 .projects-container ul a{
@@ -14,7 +18,7 @@
     opacity: 0.3;
     color: white;
     border-radius: 4em;
-    margin-top: 1em;
+    /* margin-top: 1em; */
 }
 .projects-container ul a:hover{
     text-decoration: none; 
@@ -25,9 +29,14 @@
 }
 
 @media only screen and (min-width: 700px) {
+    .projects-container {
+        width: 60%;
+        margin: 2em auto;
+    }
     .projects-container ul{
-        justify-content: flex-end;
-        margin-right: 1em;
+        flex-direction: row;
+        justify-content:  space-between;
+        width: auto;
     }
     .projects-container ul a{
         border: none;
