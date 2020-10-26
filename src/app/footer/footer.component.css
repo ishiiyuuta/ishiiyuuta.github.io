@@ -1,19 +1,16 @@
-.footer{
-    width: 100%;
-}
-
-
 .footer div{
     text-align: center;
-    
 }
 .footer div p{
     margin: 0;
 }
-
-@media only screen and (min-width: 700px) {
-    .footer{
-        position: absolute;
-        bottom:  0;
-    }
+.footer h6{
+    margin: 0;
+}
+.footer{
+    background-color: #d7ecff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-top: 1em;
 }
