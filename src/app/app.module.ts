@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-import { ContectMeComponent } from './contect-me/contect-me.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 // import { JsprojectsComponent } from './jsprojects/jsprojects.component';
 import { MainpageComponent } from './mainpage/mainpage.component';
@@ -23,7 +22,6 @@ import { QuickSortComponent } from './jsprojecgts/sorting/quick-sort/quick-sort.
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    ContectMeComponent,
     NotFoundComponent,
     MainpageComponent,
     JsprojecgtsComponent,
