@@ -5,16 +5,16 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import { MainpageComponent } from './mainpage/mainpage.component';
 
 const routes: Routes = [{
-  path: "",
+  path: '',
   component: MainpageComponent,
 },
 
 {
-  path: "js-projects",
+  path: 'js-projects',
   component: JsprojecgtsComponent,
 },
 {
-  path: "**",
+  path: '**',
   component: NotFoundComponent,
 }
 ];

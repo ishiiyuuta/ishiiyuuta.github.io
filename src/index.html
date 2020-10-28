@@ -34,6 +34,30 @@
 			src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
 			integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
 			crossorigin="anonymous"
-		></script>
+    ></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyDSMj57Oq_ZDbnN3kXIlAGUGW9SFLQkcvg",
+    authDomain: "portfolio-test-fdfb0.firebaseapp.com",
+    databaseURL: "https://portfolio-test-fdfb0.firebaseio.com",
+    projectId: "portfolio-test-fdfb0",
+    storageBucket: "portfolio-test-fdfb0.appspot.com",
+    messagingSenderId: "855944393687",
+    appId: "1:855944393687:web:effd465025db5b02085192",
+    measurementId: "G-ZYVCQRCCZM"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
 </body>
 </html>
